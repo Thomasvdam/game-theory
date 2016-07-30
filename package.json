@@ -1,0 +1,16 @@
+{
+  "name": "prisoners-dilemma",
+  "version": "0.0.1",
+  "description": "A host loading two prisoners dilemma bots so they 'battle'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "rollup -i index.js -o bundled.js",
+    "start": "node --use_strict bundled.js"
+  },
+  "author": "Thomas van Dam",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^0.34.1"
+  }
+}
